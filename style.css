@@ -1,0 +1,79 @@
+/* poppins font ..........font-family: 'Poppins', sans-serif; */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+/* inter font......... font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #ffffff;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+  margin-bottom: 200px;
+}
+.influncer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.influncer-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.influncer-left h1 {
+  font-size: 45px;
+  color: black;
+}
+.influncer-left p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: black;
+  margin: 20px 0;
+}
+.influncer-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.influncer-right img {
+  width: 100%;
+}
+/* ......................................................... */
+
+.product-img img {
+  width: 100%;
+}
+.filled {
+  color: #ffc014;
+  font-size: 12px;
+}
+.unfilled {
+  color: #aeaeae;
+  font-size: 12px;
+}
+
+.prodect-details {
+  font-family: "Roboto", sans-serif;
+}
+.collection {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.product {
+  padding: 10px 10px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 3px 10px 10px 8px rgba(236, 236, 236, 0.568);
+}
