@@ -23,8 +23,9 @@ body {
   margin-bottom: 200px;
 }
 .first-title {
-  font-weight: 600;
-  font-size: 38px;
+  margin-top: 30px;
+  font-weight: 500;
+  font-size: 35px;
   line-height: 70px;
   margin-bottom: 30px;
 }
@@ -38,12 +39,13 @@ body {
   justify-content: center;
   align-items: flex-start;
 }
-.influncer-left h3 {
+.influncer-left h1 {
   color: black;
   text-align: justify;
   font-size: 40px;
   line-height: 50px;
   font-family: "Poppins", sans-serif;
+  font-weight: 700;
 }
 .influncer-left p {
   font-size: 20px;
@@ -100,8 +102,8 @@ body {
 
 .title-style {
   text-align: center;
-  font-weight: 600;
-  font-size: 38px;
+  font-weight: 500;
+  font-size: 35px;
   line-height: 70px;
   margin-bottom: 30px;
 }
@@ -285,7 +287,7 @@ footer {
     cursor: pointer;
     color: #e02c6d;
   }
-  .influncer-left h3 {
+  .influncer-left h1 {
     color: black;
     font-weight: 400;
     text-align: justify;
@@ -294,15 +296,16 @@ footer {
     font-family: "Poppins", sans-serif;
   }
   .first-title {
-    font-weight: 600;
-    font-size: 38px;
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 35px;
     line-height: 70px;
     margin-bottom: 30px;
   }
   .title-style {
     text-align: center;
-    font-weight: 600;
-    font-size: 30px;
+    font-weight: 500;
+    font-size: 35px;
     line-height: 70px;
     margin-bottom: 30px;
   }
@@ -342,8 +345,8 @@ footer {
   }
   .title-style {
     text-align: center;
-    font-weight: 600;
-    font-size: 30px;
+    font-weight: 500;
+    font-size: 35px;
     line-height: 70px;
     margin-bottom: 30px;
   }
