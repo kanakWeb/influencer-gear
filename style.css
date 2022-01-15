@@ -254,3 +254,36 @@ footer {
 }
 
 /* responsive csss.............  */
+
+@media only screen and (max-width: 992px) {
+  .contact {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 22px;
+  }
+  .contact-right,
+  .contact-left {
+    margin: 5px 5px;
+  }
+}
+
+/* ..................................  */
+
+@media only screen and (max-width: 768px) {
+  .collection {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  .style-left-side-button {
+    margin-top: 50px;
+
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    display: inline-block;
+    margin-left: 82%;
+    font-size: 16px;
+    cursor: pointer;
+    color: #e02c6d;
+  }
+}
