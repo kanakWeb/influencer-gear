@@ -378,4 +378,13 @@ footer {
     border: 0;
     padding: 10px 15px;
   }
+  .contact {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 22px;
+  }
+  .contact-right,
+  .contact-left {
+    margin: 5px 5px;
+  }
 }
