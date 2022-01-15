@@ -38,7 +38,7 @@ body {
   justify-content: center;
   align-items: flex-start;
 }
-.influncer-left h1 {
+.influncer-left h3 {
   color: black;
   text-align: justify;
   font-size: 40px;
@@ -285,5 +285,40 @@ footer {
     font-size: 16px;
     cursor: pointer;
     color: #e02c6d;
+  }
+  .influncer-left h3 {
+    color: black;
+    font-weight: 400;
+    text-align: justify;
+    font-size: 30px;
+
+    font-family: "Poppins", sans-serif;
+  }
+  .first-title {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 70px;
+    margin-bottom: 30px;
+  }
+  .title-style {
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 70px;
+    margin-bottom: 30px;
+  }
+}
+
+/* ............................... */
+
+@media only screen and (max-width: 600px) {
+  .influncer {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .collection {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
   }
 }
