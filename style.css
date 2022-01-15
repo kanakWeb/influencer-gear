@@ -270,7 +270,7 @@ footer {
 
 /* responsive csss................tablet ..................  */
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 577px) and (max-width: 768px) {
   .collection {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -322,7 +322,7 @@ footer {
 
 /* responsive csss................Smart phone............... */
 
-@media only screen and (max-width: 630px) {
+@media only screen and (min-width: 0px) and (max-width: 576px) {
   .influncer {
     display: grid;
     grid-template-columns: 1fr;
