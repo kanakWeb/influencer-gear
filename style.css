@@ -2,11 +2,12 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 /* inter font......... font-family: 'Inter', sans-serif;
 font-family: 'Poppins', sans-serif; */
 
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:wght@700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -21,6 +22,12 @@ body {
   padding: 0 30px;
   margin-bottom: 200px;
 }
+.first-title {
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 70px;
+  margin-bottom: 30px;
+}
 .influncer {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -34,31 +41,34 @@ body {
 .influncer-left h1 {
   color: black;
   text-align: justify;
-  font-size: 52px;
-  line-height: 70px;
+  font-size: 40px;
+  line-height: 50px;
   font-family: "Poppins", sans-serif;
 }
 .influncer-left p {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.5;
   color: black;
   margin: 20px 0;
-  line-height: 24px;
+  word-spacing: 8px;
+  line-height: 25px;
   font-family: "Poppins", sans-serif;
 }
 .arrow-button {
   background-color: #e02c6d;
+  display: inline-block;
   font-size: 18px;
-  padding: 20px 35px;
+  padding: 16px 35px;
   color: white;
   border-radius: 41px;
   border: none;
-  margin-left: 30px;
+  margin-left: 20px;
   font-family: "Poppins", sans-serif;
   cursor: pointer;
   box-shadow: 0 0 2px rgb(184, 5, 103);
   position: relative;
   left: 0;
+  margin-top: 30px;
 }
 .arrow-button .style-icon {
   color: #ffffff;
@@ -82,7 +92,7 @@ body {
 .title-style {
   text-align: center;
   font-weight: 600;
-  font-size: 28px;
+  font-size: 38px;
   line-height: 70px;
   margin-bottom: 30px;
 }
@@ -123,6 +133,21 @@ body {
   box-sizing: border-box;
   box-shadow: 3px 10px 10px 8px rgba(236, 236, 236, 0.568);
 }
+.style-left-side-button {
+  margin-top: 50px;
+
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  display: inline-block;
+  margin-left: 82%;
+  font-size: 22px;
+  cursor: pointer;
+  color: #e02c6d;
+}
+.style-left-side-button i {
+  margin-left: 10px;
+  font-weight: 700;
+}
 /* contact section.... */
 .contact {
   display: grid;
@@ -130,6 +155,9 @@ body {
   gap: 22px;
 }
 .contact-left img {
+  width: 100%;
+}
+.contact-right {
   width: 100%;
 }
 .contact-right form {
@@ -170,6 +198,11 @@ body {
   top: 3px;
   box-shadow: 0 3px 0 rgb(184, 5, 103);
 }
+.contact-left {
+  margin-top: 0px;
+  width: 100%;
+  height: 50%;
+}
 .contact-left img {
   width: 100%;
 }
@@ -188,23 +221,25 @@ footer {
   padding: 30px;
 }
 .title {
+  font-size: 35px;
   text-align: center;
   color: white;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
 }
 .style-text {
-  font-size: 15px;
+  font-size: 18px;
   text-align: center;
   color: white;
+  word-spacing: 7px;
 }
 .icon-style {
   text-align: center;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .icon-style a {
   margin-left: 10px;
-  margin-top: 50px;
+  margin-top: 15px;
   background-color: #22213c;
   height: 60px;
   width: 60px;
@@ -217,3 +252,5 @@ footer {
   font-size: 20px;
   color: white;
 }
+
+/* responsive csss.............  */
