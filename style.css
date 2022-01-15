@@ -65,21 +65,24 @@ body {
   margin-left: 20px;
   font-family: "Poppins", sans-serif;
   cursor: pointer;
-  box-shadow: 0 0 2px rgb(184, 5, 103);
-  position: relative;
-  left: 0;
+  box-shadow: inset 0 0 0 0 rgb(184, 5, 103);
+  transition: ease-out 0.4s;
+  outline: none;
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+.arrow-button:hover {
+  left: 3px;
+  box-shadow: inset 300px 0 0 0 rgb(2, 109, 34);
+  cursor: pointer;
 }
 .arrow-button .style-icon {
   color: #ffffff;
   font-size: 18px;
   margin-left: 30px;
 }
-.arrow-button:active {
-  left: 3px;
-  box-shadow: 0 0 3px rgb(184, 5, 103);
-}
+
 .influncer-right {
   display: flex;
   justify-content: center;
@@ -88,7 +91,7 @@ body {
 .influncer-right img {
   width: 100%;
 }
-/* ......................................................... */
+/* ........influncer end................................................. */
 
 .title-style {
   text-align: center;
